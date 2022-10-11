@@ -1,11 +1,13 @@
+import styles from './Frase.module.css'
+
 function Frase(){
 
 
     return(
-        <div>
+        <div className={styles.fraseContainer}>
             Menos para aprender
-Você não precisa aprender e configurar muitas ferramentas de compilação. As recargas instantâneas ajudam você a se concentrar no desenvolvimento. Quando é hora de implantar, seus pacotes são otimizados automaticamente.
-
+<p className={styles.fraseContent}> Você não precisa aprender e configurar muitas ferramentas de compilação. As recargas instantâneas ajudam você a se concentrar no desenvolvimento. Quando é hora de implantar, seus pacotes são otimizados automaticamente.
+</p>
 Apenas uma dependência
 Seu aplicativo precisa apenas de uma dependência de compilação. Testamos o Create React App para garantir que todas as suas partes subjacentes funcionem perfeitamente juntas - sem incompatibilidades de versão complicadas.
 
